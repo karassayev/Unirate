@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D900A1CD2D92220E005A727D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D900A1CC2D92220E005A727D /* SnapKit */; };
+		D900A1D02D92227C005A727D /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = D900A1CF2D92227C005A727D /* CombineMoya */; };
+		D900A1D22D92227C005A727D /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D900A1D12D92227C005A727D /* Moya */; };
+		D900A1D42D92227C005A727D /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = D900A1D32D92227C005A727D /* ReactiveMoya */; };
+		D900A1D62D92227C005A727D /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = D900A1D52D92227C005A727D /* RxMoya */; };
+		D900A1D92D922293005A727D /* CHIPageControl in Frameworks */ = {isa = PBXBuildFile; productRef = D900A1D82D922293005A727D /* CHIPageControl */; };
+		D900A1DC2D9222A4005A727D /* MarqueeLabel in Frameworks */ = {isa = PBXBuildFile; productRef = D900A1DB2D9222A4005A727D /* MarqueeLabel */; };
+		D900A1DF2D9222BB005A727D /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D900A1DE2D9222BB005A727D /* IQKeyboardManagerSwift */; };
+		D900A2462D92ADFF005A727D /* iOSDropDown in Frameworks */ = {isa = PBXBuildFile; productRef = D900A2452D92ADFF005A727D /* iOSDropDown */; };
+		D900A2522D931576005A727D /* M13Checkbox in Frameworks */ = {isa = PBXBuildFile; productRef = D900A2512D931576005A727D /* M13Checkbox */; };
+		D9685A8F2DA0AF8D008DC65D /* MXSegmentedControl in Frameworks */ = {isa = PBXBuildFile; productRef = D9685A8E2DA0AF8D008DC65D /* MXSegmentedControl */; };
+		D9685A922DA25695008DC65D /* LTHRadioButton in Frameworks */ = {isa = PBXBuildFile; productRef = D9685A912DA25695008DC65D /* LTHRadioButton */; };
+		D9685A972DAC5B96008DC65D /* MARKRangeSlider in Frameworks */ = {isa = PBXBuildFile; productRef = D9685A962DAC5B96008DC65D /* MARKRangeSlider */; };
+		D9C01F1F2DB6385700BCFBA8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D9C01F1E2DB6385700BCFBA8 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D900A1B32D9221A5005A727D /* test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D900A1C52D9221A7005A727D /* Exceptions for "test2" folder in "test2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D900A1B22D9221A5005A727D /* test2 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D900A1B52D9221A5005A727D /* test2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D900A1C52D9221A7005A727D /* Exceptions for "test2" folder in "test2" target */,
+			);
+			path = test2;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D900A1B02D9221A5005A727D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D900A1D62D92227C005A727D /* RxMoya in Frameworks */,
+				D9685A922DA25695008DC65D /* LTHRadioButton in Frameworks */,
+				D9C01F1F2DB6385700BCFBA8 /* Kingfisher in Frameworks */,
+				D900A1DF2D9222BB005A727D /* IQKeyboardManagerSwift in Frameworks */,
+				D9685A8F2DA0AF8D008DC65D /* MXSegmentedControl in Frameworks */,
+				D900A1D02D92227C005A727D /* CombineMoya in Frameworks */,
+				D9685A972DAC5B96008DC65D /* MARKRangeSlider in Frameworks */,
+				D900A2462D92ADFF005A727D /* iOSDropDown in Frameworks */,
+				D900A1D92D922293005A727D /* CHIPageControl in Frameworks */,
+				D900A2522D931576005A727D /* M13Checkbox in Frameworks */,
+				D900A1DC2D9222A4005A727D /* MarqueeLabel in Frameworks */,
+				D900A1D42D92227C005A727D /* ReactiveMoya in Frameworks */,
+				D900A1CD2D92220E005A727D /* SnapKit in Frameworks */,
+				D900A1D22D92227C005A727D /* Moya in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D900A1AA2D9221A5005A727D = {
+			isa = PBXGroup;
+			children = (
+				D900A1B52D9221A5005A727D /* test2 */,
+				D900A1B42D9221A5005A727D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D900A1B42D9221A5005A727D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D900A1B32D9221A5005A727D /* test2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D900A1B22D9221A5005A727D /* test2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D900A1C62D9221A7005A727D /* Build configuration list for PBXNativeTarget "test2" */;
+			buildPhases = (
+				D900A1AF2D9221A5005A727D /* Sources */,
+				D900A1B02D9221A5005A727D /* Frameworks */,
+				D900A1B12D9221A5005A727D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D900A1B52D9221A5005A727D /* test2 */,
+			);
+			name = test2;
+			packageProductDependencies = (
+				D900A1CC2D92220E005A727D /* SnapKit */,
+				D900A1CF2D92227C005A727D /* CombineMoya */,
+				D900A1D12D92227C005A727D /* Moya */,
+				D900A1D32D92227C005A727D /* ReactiveMoya */,
+				D900A1D52D92227C005A727D /* RxMoya */,
+				D900A1D82D922293005A727D /* CHIPageControl */,
+				D900A1DB2D9222A4005A727D /* MarqueeLabel */,
+				D900A1DE2D9222BB005A727D /* IQKeyboardManagerSwift */,
+				D900A2452D92ADFF005A727D /* iOSDropDown */,
+				D900A2512D931576005A727D /* M13Checkbox */,
+				D9685A8E2DA0AF8D008DC65D /* MXSegmentedControl */,
+				D9685A912DA25695008DC65D /* LTHRadioButton */,
+				D9685A962DAC5B96008DC65D /* MARKRangeSlider */,
+				D9C01F1E2DB6385700BCFBA8 /* Kingfisher */,
+			);
+			productName = test2;
+			productReference = D900A1B32D9221A5005A727D /* test2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D900A1AB2D9221A5005A727D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D900A1B22D9221A5005A727D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = D900A1AE2D9221A5005A727D /* Build configuration list for PBXProject "test2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D900A1AA2D9221A5005A727D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D900A1CB2D92220E005A727D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D900A1CE2D92227C005A727D /* XCRemoteSwiftPackageReference "Moya" */,
+				D900A1D72D922293005A727D /* XCRemoteSwiftPackageReference "CHIPageControl" */,
+				D900A1DA2D9222A4005A727D /* XCRemoteSwiftPackageReference "MarqueeLabel" */,
+				D900A1DD2D9222BB005A727D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				D900A2442D92ADFF005A727D /* XCRemoteSwiftPackageReference "iOSDropDown" */,
+				D900A24D2D930FED005A727D /* XCLocalSwiftPackageReference "../../Downloads/BEMCheckBox-master" */,
+				D900A2502D931576005A727D /* XCRemoteSwiftPackageReference "M13Checkbox" */,
+				D900A2532D935F9C005A727D /* XCLocalSwiftPackageReference "../../Downloads/DropDown-master" */,
+				D9685A8D2DA0AF8D008DC65D /* XCLocalSwiftPackageReference "../../Downloads/MXSegmentedControl-master" */,
+				D9685A902DA25695008DC65D /* XCRemoteSwiftPackageReference "LTHRadioButton" */,
+				D9685A952DAC5B96008DC65D /* XCLocalSwiftPackageReference "../../Downloads/MARKRangeSlider-master" */,
+				D9C01F1D2DB6385700BCFBA8 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D900A1B42D9221A5005A727D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D900A1B22D9221A5005A727D /* test2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D900A1B12D9221A5005A727D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D900A1AF2D9221A5005A727D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D900A1C72D9221A7005A727D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZPL48C9X8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = test2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diasu.test2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D900A1C82D9221A7005A727D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZPL48C9X8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = test2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diasu.test2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D900A1C92D9221A7005A727D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D900A1CA2D9221A7005A727D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D900A1AE2D9221A5005A727D /* Build configuration list for PBXProject "test2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D900A1C92D9221A7005A727D /* Debug */,
+				D900A1CA2D9221A7005A727D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D900A1C62D9221A7005A727D /* Build configuration list for PBXNativeTarget "test2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D900A1C72D9221A7005A727D /* Debug */,
+				D900A1C82D9221A7005A727D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D900A24D2D930FED005A727D /* XCLocalSwiftPackageReference "../../Downloads/BEMCheckBox-master" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../Downloads/BEMCheckBox-master";
+		};
+		D900A2532D935F9C005A727D /* XCLocalSwiftPackageReference "../../Downloads/DropDown-master" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../Downloads/DropDown-master";
+		};
+		D9685A8D2DA0AF8D008DC65D /* XCLocalSwiftPackageReference "../../Downloads/MXSegmentedControl-master" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../Downloads/MXSegmentedControl-master";
+		};
+		D9685A952DAC5B96008DC65D /* XCLocalSwiftPackageReference "../../Downloads/MARKRangeSlider-master" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../Downloads/MARKRangeSlider-master";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D900A1CB2D92220E005A727D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		D900A1CE2D92227C005A727D /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+		D900A1D72D922293005A727D /* XCRemoteSwiftPackageReference "CHIPageControl" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ChiliLabs/CHIPageControl.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+		D900A1DA2D9222A4005A727D /* XCRemoteSwiftPackageReference "MarqueeLabel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cbpowell/MarqueeLabel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+		D900A1DD2D9222BB005A727D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.1;
+			};
+		};
+		D900A2442D92ADFF005A727D /* XCRemoteSwiftPackageReference "iOSDropDown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jriosdev/iOSDropDown.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+		D900A2502D931576005A727D /* XCRemoteSwiftPackageReference "M13Checkbox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Marxon13/M13Checkbox.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.4.1;
+			};
+		};
+		D9685A902DA25695008DC65D /* XCRemoteSwiftPackageReference "LTHRadioButton" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rolandleth/LTHRadioButton.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.4;
+			};
+		};
+		D9C01F1D2DB6385700BCFBA8 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D900A1CC2D92220E005A727D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D900A1CB2D92220E005A727D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D900A1CF2D92227C005A727D /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D900A1CE2D92227C005A727D /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		D900A1D12D92227C005A727D /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D900A1CE2D92227C005A727D /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		D900A1D32D92227C005A727D /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D900A1CE2D92227C005A727D /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		D900A1D52D92227C005A727D /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D900A1CE2D92227C005A727D /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		D900A1D82D922293005A727D /* CHIPageControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D900A1D72D922293005A727D /* XCRemoteSwiftPackageReference "CHIPageControl" */;
+			productName = CHIPageControl;
+		};
+		D900A1DB2D9222A4005A727D /* MarqueeLabel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D900A1DA2D9222A4005A727D /* XCRemoteSwiftPackageReference "MarqueeLabel" */;
+			productName = MarqueeLabel;
+		};
+		D900A1DE2D9222BB005A727D /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D900A1DD2D9222BB005A727D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		D900A2452D92ADFF005A727D /* iOSDropDown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D900A2442D92ADFF005A727D /* XCRemoteSwiftPackageReference "iOSDropDown" */;
+			productName = iOSDropDown;
+		};
+		D900A2512D931576005A727D /* M13Checkbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D900A2502D931576005A727D /* XCRemoteSwiftPackageReference "M13Checkbox" */;
+			productName = M13Checkbox;
+		};
+		D9685A8E2DA0AF8D008DC65D /* MXSegmentedControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MXSegmentedControl;
+		};
+		D9685A912DA25695008DC65D /* LTHRadioButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9685A902DA25695008DC65D /* XCRemoteSwiftPackageReference "LTHRadioButton" */;
+			productName = LTHRadioButton;
+		};
+		D9685A962DAC5B96008DC65D /* MARKRangeSlider */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MARKRangeSlider;
+		};
+		D9C01F1E2DB6385700BCFBA8 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9C01F1D2DB6385700BCFBA8 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D900A1AB2D9221A5005A727D /* Project object */;
+}
